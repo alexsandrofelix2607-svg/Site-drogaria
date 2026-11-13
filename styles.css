@@ -1,0 +1,116 @@
+:root{
+    --vermelho:#E60000;
+    --dourado:#FFA500;
+    --verde-whats:#25D366;
+    --azul:#1F2937;
+    --claro:#F8FAFC;
+}
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Inter',sans-serif;scroll-behavior:smooth;}
+body{background:var(--claro);color:var(--azul);}
+.container{max-width:1200px;margin:0 auto;padding:0 20px;}
+
+/* HEADER */
+header{background:white;box-shadow:0 2px 10px rgba(0,0,0,0.05);position:sticky;top:0;z-index:100;transition:0.3s;}
+header.shadow{box-shadow:0 4px 20px rgba(0,0,0,0.1);}
+nav{display:flex;justify-content:space-between;align-items:center;padding:12px 0;}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:18px;}
+.logo img{width:45px;height:45px;border-radius:50%;object-fit:cover;border:2px solid var(--vermelho);}
+.logo b{color:var(--vermelho);}
+.menu{display:flex;gap:25px;list-style:none;}
+.menu a{text-decoration:none;color:var(--azul);font-weight:500;}
+.menu a:hover{color:var(--vermelho);}
+.btn-whats{background:var(--verde-whats);color:white;padding:10px 20px;border-radius:8px;text-decoration:none;font-weight:600;}
+
+/* HERO */
+.hero{background:linear-gradient(135deg, var(--vermelho) 0%, var(--dourado) 100%);color:white;padding:100px 0;}
+.hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;}
+.hero h1{font-size:42px;line-height:1.2;margin-bottom:15px;}
+.hero h1 span{color:var(--dourado);}
+.hero p{margin-bottom:25px;font-size:16px;}
+.hero-botoes{display:flex;gap:15px;}
+.btn1{background:var(--verde-whats);color:white;padding:14px 25px;border-radius:8px;text-decoration:none;font-weight:700;display:flex;gap:8px;align-items:center;}
+.btn2{border:2px solid white;background:transparent;color:white;padding:12px 23px;border-radius:8px;text-decoration:none;font-weight:700;}
+.hero-tags{display:flex;gap:15px;margin-top:20px;flex-wrap:wrap;}
+.tag{background:rgba(255,255,255,0.2);padding:8px 12px;border-radius:20px;font-size:13px;}
+.hero-img{display:flex;align-items:center;justify-content:center;}
+.hero-img img{width:350px;height:350px;border-radius:50%;object-fit:cover;border:6px solid white;box-shadow:0 15px 40px rgba(0,0,0,0.3);}
+
+/* SOBRE */
+.sobre{padding:80px 0;background:white;}
+.sobre-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;}
+.sobre img{width:100%;border-radius:16px;}
+.sobre h2{font-size:32px;margin-bottom:15px;color:var(--vermelho);}
+.check-list{list-style:none;margin:20px 0;}
+.check-list li{margin-bottom:10px;display:flex;align-items:center;gap:10px;}
+.check-list i{color:var(--vermelho);}
+.btn-vip{background:linear-gradient(135deg, var(--vermelho) 0%, var(--dourado) 100%);color:white;padding:14px 25px;border-radius:8px;text-decoration:none;font-weight:700;display:inline-block;margin-top:15px;}
+
+/* DIFERENCIAIS */
+.diferenciais{padding:80px 0;background:var(--claro);}
+.grid-diferenciais{display:grid;grid-template-columns:repeat(4,1fr);gap:30px;text-align:center;}
+.item-diferencial i{font-size:40px;color:var(--vermelho);margin-bottom:15px;transition:0.3s;}
+.item-diferencial.dourado i{color:var(--dourado);} /* Ícones dourados */
+.item-diferencial h3{font-size:18px;color:var(--azul);margin-bottom:8px;}
+.item-diferencial p{font-size:14px;color:#666;}
+.item-diferencial:hover{transform:translateY(-5px);}
+
+/* PRODUTOS */
+.produtos{padding:80px 0;background:white;}
+.titulo{text-align:center;font-size:32px;margin-bottom:10px;color:var(--vermelho);}
+.subtitulo{text-align:center;color:#666;margin-bottom:40px;}
+.grid-produtos{display:grid;grid-template-columns:repeat(3,1fr);gap:25px;justify-items:center;}
+.card-produto{background:var(--claro);border-radius:16px;overflow:hidden;text-align:center;transition:0.3s;width:100%;}
+.card-produto:hover{transform:translateY(-8px);box-shadow:0 15px 30px rgba(0,0,0,0.1);}
+.card-produto img{width:100%;height:200px;object-fit:cover;}
+.card-produto h3{padding:20px 15px 10px;color:var(--vermelho);}
+.card-produto p{padding:0 15px 20px;font-size:14px;color:#666;}
+
+/* CREDIARIO */
+.crediario{padding:80px 0;background:#F8FAFC;} /* Fundo cinza */
+.crediario-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;}
+.crediario-texto h3{font-size:18px;color:#555;font-weight:600;margin-bottom:5px;}
+.crediario-texto h2{font-size:42px;color:var(--vermelho);font-weight:800;line-height:1.1;margin-bottom:15px;}
+.crediario-texto h2 span{color:var(--dourado);}
+.crediario-texto .linha{width:60px;height:4px;background:var(--vermelho);margin-bottom:20px;}
+.crediario-texto p{font-size:16px;color:#333;margin-bottom:25px;line-height:1.6;}
+.crediario-texto p span{color:var(--vermelho);font-weight:700;}
+.btn-crediario{background:linear-gradient(135deg, var(--vermelho) 0%, var(--dourado) 100%);color:white;padding:14px 25px;border-radius:8px;text-decoration:none;font-weight:700;display:inline-flex;gap:8px;align-items:center;margin-top:10px;}
+.crediario-img img{width:100%;border-radius:16px;box-shadow:0 10px 30px rgba(0,0,0,0.1);}
+
+/* BENEFICIOS CREDIARIO */
+.crediario-beneficios{display:grid;grid-template-columns:repeat(3,1fr);gap:25px;margin:30px 0;}
+.beneficio-item{text-align:center;padding:10px;}
+.icon-circulo{width:70px;height:70px;background:var(--vermelho);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 12px;}
+.icon-circulo i{font-size:28px;color:white;}
+.beneficio-item h4{color:var(--vermelho);font-size:15px;font-weight:800;margin-bottom:5px;}
+.beneficio-item p{font-size:13px;color:#555;line-height:1.4;}
+.beneficio-item p b{color:var(--vermelho);}
+@media(min-width:900px){.beneficio-item:not(:last-child){border-right:1px solid #ddd;}}
+
+/* CONTATO */
+.contato{padding:60px 0;text-align:center;background:white;}
+.grid-contato{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;margin-top:30px;}
+.item-contato i{font-size:30px;color:var(--vermelho);margin-bottom:10px;}
+.item-contato a{color:var(--verde-whats);text-decoration:none;font-weight:600;}
+
+/* FOOTER */
+footer{background:var(--azul);color:white;padding:50px 0 20px;}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:30px;}
+.footer-grid a{color:white;text-decoration:none;}
+.copy{text-align:center;margin-top:40px;color:#9CA3AF;}
+
+/* BOTÃO WHATSAPP FLUTUANTE */
+.whats-float{position:fixed;bottom:25px;right:25px;background:var(--verde-whats);color:white;width:60px;height:60px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:30px;z-index:999;box-shadow:0 4px 15px rgba(37,211,102,0.4);text-decoration:none;animation: pulse 2s infinite;}
+@keyframes pulse{0%{transform:scale(1);}50%{transform:scale(1.1);}100%{transform:scale(1);}}
+
+/* RESPONSIVO */
+@media(max-width:900px){
+    .menu{display:none;}
+    .hero-grid,.sobre-grid,.grid-produtos,.grid-contato,.footer-grid,.grid-diferenciais,.crediario-grid{grid-template-columns:1fr;}
+    .grid-diferenciais{grid-template-columns:1fr 1fr;}
+    .crediario-beneficios{grid-template-columns:1fr;}
+    .beneficio-item{border-bottom:1px solid #eee;padding-bottom:20px;}
+    .hero h1{font-size:28px;}
+    .hero-botoes{flex-direction:column;}
+    .hero{padding:80px 0;}
+}
