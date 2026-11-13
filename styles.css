@@ -145,7 +145,7 @@ footer{background:var(--azul);color:white;padding:50px 0 20px;}
     .hero h1{grid-column:2;grid-row:1;margin-bottom:0;font-size:clamp(22px,5vw,36px);}
     .hero p,.hero-botoes,.hero-tags{grid-column:1/-1;}
     .hero{padding:64px 0;}
-    .hero-img img{width:clamp(96px,18vw,140px);height:auto;aspect-ratio:1;}
+    .hero-img img{width:clamp(96px,18vw,140px);height:auto;aspect-ratio:1;border:0;}
     .sobre,.diferenciais,.produtos,.crediario{padding:60px 0;}
     .sobre h2{font-size:clamp(26px,4vw,32px);}
     .grid-diferenciais,.grid-produtos,.grid-contato{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;}
