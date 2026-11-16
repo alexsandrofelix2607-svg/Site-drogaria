@@ -14,6 +14,25 @@
     scroll-behavior: smooth;
 }
 
+h1,
+h2,
+h3,
+h4,
+.logo,
+.logo span,
+.logo b,
+.footer-logo,
+.footer-logo *,
+.crediario-texto h2 span,
+.hero h1 span {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 800 !important;
+}
+
+.crediario-texto h3 {
+    font-weight: 800 !important;
+}
+
 body {
     background: var(--claro);
     color: var(--azul);
@@ -363,6 +382,8 @@ nav {
 
 .crediario-texto h2 span {
     color: var(--dourado);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
 }
 
 .crediario-texto .linha {
