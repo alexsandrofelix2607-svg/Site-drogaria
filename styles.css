@@ -662,7 +662,7 @@ footer {
         width: clamp(96px, 18vw, 140px);
         height: auto;
         aspect-ratio: 1;
-        border: 0;
+        border: 6px solid white;
     }
 
     .sobre,
