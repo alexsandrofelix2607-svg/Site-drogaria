@@ -15,10 +15,7 @@
     scroll-behavior: smooth;
 }
 
-h1,
-h2,
-h3,
-h4,
+h1,h2,h3,h4,
 .logo,
 .logo span,
 .logo b,
@@ -476,6 +473,38 @@ nav {
         border-right: 1px solid #ddd;
     }
 }
+
+/* INSTAGRAM */
+.instagram {
+    padding: 60px 0;
+    text-align: center;
+    background: white;
+}
+
+.instagram h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: var(--azul);
+}
+
+.instagram p {
+    color: #666;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.btn-insta {
+    background: linear-gradient(135deg, #F58529 0%, #DD2A7B 50%, #8134AF 100%);
+    color: white;
+    padding: 14px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+    display: inline-flex;
+    gap: 8px;
+    align-items: center;
+}
+
 
 /* CONTATO */
 .contato {
