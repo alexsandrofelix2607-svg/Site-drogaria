@@ -493,6 +493,16 @@ nav {
     font-size: 16px;
 }
 
+/* PALAVRA INSTAGRAM - MESMA COR DO BOTÃO */
+.instagram h2 .insta-text{
+    background: linear-gradient(135deg, #F58529 0%, #DD2A7B 50%, #8134AF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 900;
+    font-size: 34px;
+}
+
 .btn-insta {
     background: linear-gradient(135deg, #F58529 0%, #DD2A7B 50%, #8134AF 100%);
     color: white;
