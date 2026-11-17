@@ -545,9 +545,30 @@ footer {
     gap: 30px;
 }
 
+.footer-grid h4 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: white;
+}
+
+.footer-grid p {
+    color: #D1D5DB;
+    margin-bottom: 12px;
+    line-height: 1.6;
+    font-size: 14px;
+}
+
 .footer-grid a {
     color: white;
     text-decoration: none;
+}
+
+.footer-grid p i,
+.footer-grid a i {
+    margin-right: 8px;
+    color: white;
+    width: 16px;
+    text-align: center;
 }
 
 .copy {
