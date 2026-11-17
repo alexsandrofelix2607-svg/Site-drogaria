@@ -399,8 +399,8 @@ nav {
 }
 
 .crediario-texto p span {
-    color: var(--vermelho);
-    font-weight: 700;
+    color:var(--dourado);
+    font-weight: 800;
 }
 
 .btn-crediario {
