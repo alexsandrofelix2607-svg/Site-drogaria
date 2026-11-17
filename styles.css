@@ -611,6 +611,62 @@ footer {
     }
 }
 
+/* BARRA INFERIOR - SÓ NO CELULAR */
+.bottom-nav{
+    display: none;
+}
+
+.menu a i{
+    margin-right: 8px;
+    color: #e30613;
+}
+
+@media(max-width:900px){
+    .bottom-nav{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border-top: 1px solid #eee;
+    padding: 10px 0 12px;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 999;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+}
+.bottom-nav a{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 2px !important;
+    color: #333;
+    text-decoration: none;
+    font-size: 11px;
+    line-height: 1;
+}
+.bottom-nav a i{
+    font-size: 22px;
+    color: #e30613;
+    margin: 0 !important;
+}
+    body{
+        padding-bottom: 65px;
+    }
+        .whats-float{
+        bottom: 85px;
+    }
+    /* TIRA O MENU DE CIMA NO CELULAR */
+    .menu-toggle, .hamburger, .menu-btn, .btn-menu{
+        display: none !important;
+    }
+    .menu{
+        display: none !important;
+    }
+    
+}
+
 /* RESPONSIVO */
 @media(max-width:900px) {
     nav {
