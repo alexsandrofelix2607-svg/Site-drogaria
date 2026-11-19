@@ -1,10 +1,22 @@
-# 💊 Drogaria do Futuro
+<p align="center">
+  <img src="img/logo.JPG" alt="Drogaria do Futuro" width="180">
+</p>
+
+<h1 align="center">💊 Drogaria do Futuro</h1>
+
+<p align="center">
+  Sua saúde é a nossa prioridade.
+</p>
+
+<p align="center">
+  <img src="img/drogaria.jpg" alt="Foto da Drogaria do Futuro" width="700">
+</p>
+
+---
 
 Site institucional da **Drogaria do Futuro**, em Manaus - AM.
 Feito para apresentar a farmácia, os produtos, os diferenciais
 e o crediário próprio da loja.
-
-> Sua saúde é a nossa prioridade.
 
 ## ✨ O que tem no site
 
@@ -37,15 +49,6 @@ e o crediário próprio da loja.
 
 ## 📁 Estrutura do projeto
 
-Site-drogaria/
-├── index.html
-├── styles.css
-├── scripts.js
-├── README.md
-└── img/
-    ├── drogaria.jpg
-    ├── crediario.jpeg
-    └── logo.JPG
 
 ## ▶️ Como rodar o projeto
 
