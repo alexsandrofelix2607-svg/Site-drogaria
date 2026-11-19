@@ -5,73 +5,135 @@
 <h1 align="center">💊 Drogaria do Futuro</h1>
 
 <p align="center">
-  Sua saúde é a nossa prioridade.
+  Landing page para cliente real, em produção, em Manaus - AM.
 </p>
 
 <p align="center">
-  <img src="img/drogaria.jpg" alt="Foto da Drogaria do Futuro" width="700">
+  <a href="https://drogariadofuturo.github.io/Site-drogaria/">👉 CLIQUE AQUI PARA ABRIR O SITE</a>
+  &nbsp;•&nbsp;
+</p>
+
+<p align="center">
+  <img src="img/drogaria.jpg" alt="Drogaria do Futuro" width="100%">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/RESPONSIVE-25D366?style=for-the-badge" alt="Responsive">
+  <img src="https://img.shields.io/badge/PROJETO_ENTREGUE-00C853?style=for-the-badge" alt="Projeto Entregue">
+  <img src="https://img.shields.io/badge/EM_PRODUÇÃO-FF6D00?style=for-the-badge" alt="Em Produção">
 </p>
 
 ---
 
-Site institucional da **Drogaria do Futuro**, em Manaus - AM.
-Feito para apresentar a farmácia, os produtos, os diferenciais
-e o crediário próprio da loja.
+## 📌 Sobre o Projeto
 
-## ✨ O que tem no site
+Landing page criada com **HTML, CSS e JavaScript**, sem frameworks e sem backend, para a **Drogaria do Futuro**.
 
-- **Início** - Banner principal com chamada para WhatsApp
-- **Sobre** - Apresentação da Drogaria do Futuro
-- **Produtos** - Produtos e Serviços da farmácia
-- **Crediário** - Aqui você já tem o seu crediário!
-    - Compre com tranquilidade
-    - Parcele suas compras
-    - Pague no mês subsequente, sem juros
-- **Contato** - Fale no WhatsApp e solicite o crediário
-- **Nossos Diferenciais**
-    - Menor Preço - Economia real para toda família
-    - Saúde em 1º Lugar - Produtos de qualidade e confiança
-    - Agilidade - Atendimento rápido e sem filas
-    - Confiança - Referência em Manaus
+Site em produção no GitHub Pages:
+**https://drogariadofuturo.github.io/Site-drogaria/**
 
-## 📍 Informações
+O objetivo é apresentar a farmácia e facilitar o pedido pelo WhatsApp.
 
-- **Local:** Av. Autaz Mirim, Manaus - AM
-- **Entrega:** Entrega Rápida
-- **Produtos:** 100% Produtos originais
-- **Atendimento:** De excelência
+## 🎯 O que o site faz
 
-## 🛠️ Tecnologias usadas
+- Apresenta a farmácia, produtos e diferenciais
+- Facilita o pedido pelo WhatsApp com 1 clique
+- Divulga o crediário próprio da loja
+- Direciona para o Instagram **@futurodrogaria**
+- Funciona no celular, tablet e computador
 
-- HTML5
-- CSS3
-- JavaScript
+## ⚡ Seções do Site
 
-## 📁 Estrutura do projeto
+### 🏠 Início - `#inicio`
+Título: **"Sua saúde é a nossa prioridade"**
+Texto sobre medicamentos, genéricos, vitaminas, higiene e perfumaria com preço justo em Manaus.
+Botões: **Chamar no WhatsApp** e **Ver Produtos**
+Selos: **Entrega Rápida** e **100% Produtos originais**
+Imagem: `img/logo.JPG`
+
+### 📖 Sobre - `#sobre`
+Título: **"Muito prazer, somos a Drogaria do Futuro"**
+Lista: Medicamentos e genéricos selecionados / Vitaminas e suplementos / Perfumaria e higiene pessoal / Menor preço garantido da região
+Botão: **Fazer Pedido VIP**
+
+### 🏆 Nossos Diferenciais
+**Menor Preço** - Economia real para toda família | **Saúde em 1º Lugar** - Produtos de qualidade e confiança | **Agilidade** - Atendimento rápido e sem filas | **Confiança** - Referência em Manaus
+
+### 💊 Produtos e Serviços - `#produtos`
+Subtítulo: **"Do medicamento ao item de higiene, temos tudo para o seu cuidado."**
+3 cards: **Medicamentos** - Tarja preta, controlados e de uso contínuo / **Genéricos** - Mesma qualidade com preço acessível / **Perfumaria** - As melhores marcas de cosméticos e higiene
+
+### 💳 Crediário - `#crediario`
+Título: **"Aqui você já tem o seu crediário!"**
+Texto: Faça suas compras com tranquilidade, parcele e pague no mês subsequente. Aprovação rápida, sem burocracia.
+3 passos: **COMPRE** / **PARCELE em até 4x** / **PAGUE NO MÊS SUBSEQUENTE, sem juros**
+Botão: **Solicitar Crediário**
+Imagem: `img/crediario.jpeg`
+
+### 📸 Instagram
+Título: **"Acompanhe nosso Instagram"**
+Texto: Fique por dentro das nossas novidades, promoções do dia e ofertas exclusivas!
+Botão: **Siga @futurodrogaria**
+
+### 📞 Contato - `#contato`
+Título: **"Faça seu pedido agora"**
+Endereço: Av. Autaz Mirim, 7560 - Tancredo Neves, Manaus/AM
+WhatsApp: (92) 98418-1920
+Horário: Seg. a Sáb.: 8h às 19h / Domingo: Fechado
+
+### 📌 Elementos Fixos
+Header fixo com `position: sticky`, botão flutuante de WhatsApp, barra inferior no celular com Início, Sobre, Produtos, Crediário e Contato, e footer com links, contato e Instagram.
+
+## 🛠️ Tecnologias Utilizadas
+
+| Tecnologia | Uso no Projeto |
+| :--- | :--- |
+| **HTML5** | Estrutura do `index.html` e das seções: Início, Sobre, Produtos, Crediário, Contato |
+| **CSS3** | `styles.css` - Flexbox, Grid, variáveis em `:root`, responsivo com `@media (max-width:900px)` e `@media (max-width:600px)`, animação `@keyframes pulse` |
+| **JavaScript** | `scripts.js` - Sombra no header no scroll, abrir/fechar menu mobile e fechar com `Escape` |
+| **Google Fonts** | Fontes `Inter` e `Poppins` |
+| **Font Awesome 6.4.0** | Ícones do menu, seções e botões |
+| **GitHub Pages** | Hospedagem do site em produção |
+
+> **Scroll:** Scroll vertical com `scroll-behavior: smooth` no CSS e `window.addEventListener('scroll')` no JS para a sombra do header após 50px.
+> **Foco:** 100% Frontend. Sem frameworks e sem backend.
+
+## 📁 Estrutura de Pastas
+
+Site-drogaria/
+├── img/
+│   ├── drogaria.jpg
+│   ├── crediario.jpeg
+│   ├── logo.JPG
+├── index.html
+├── styles.css
+├── scripts.js
+└── README.md
 
 
-## ▶️ Como rodar o projeto
+## 📍 Informações da Loja
 
-1. Baixe ou clone o projeto
-2. Abra a pasta `Site-drogaria` no VS Code
-3. Clique com o botão direito no `index.html`
-4. Clique em **Open with Live Server**
-5. O site vai abrir no navegador em `http://127.0.0.1:5500`
+- **Endereço:** Av. Autaz Mirim, 7560 - Tancredo Neves, Manaus/AM
+- **WhatsApp:** (92) 98418-1920
+- **Instagram:** [@futurodrogaria](https://www.instagram.com/futurodrogaria)
+- **Site:** https://drogariadofuturo.github.io/Site-drogaria/
 
-Ou só abrir o arquivo `index.html` direto no navegador.
+## 👨‍💻 Autor
 
-## 📱 Responsivo
+**Alexsandro Felix**
 
-O site funciona no computador, tablet e celular.
-No celular o menu fica embaixo:
-Início | Sobre | Produtos | Crediário | Contato
+GitHub: [alexsandrofelix2607-svg](https://github.com/alexsandrofelix2607-svg)
 
-## 🚀 Próximos passos
+Desenvolvedor Frontend focado em landing pages rápidas, responsivas e que convertem para clientes reais.
 
-- [ ] Colocar o número real do WhatsApp no botão
-- [ ] Colocar o endereço completo e horário de funcionamento
-- [ ] Adicionar os produtos com preço
-- [ ] Publicar no GitHub Pages / Netlify
+## ⚡ Como executar
 
----
-Feito para a Drogaria do Futuro - Manaus
+```bash
+git clone https://github.com/drogariadofuturo/Site-drogaria.git
+cd Site-drogaria
+code .
+
+
